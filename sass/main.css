@@ -342,7 +342,7 @@ main {
   justify-content: center;
 }
 main .glass {
-  background: white;
+  background: #fff;
   min-height: 80vh;
   width: 80%;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -353,7 +353,7 @@ main .glass {
 }
 
 .circle1, .circle2 {
-  background: white;
+  background: #fff;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
   height: 20rem;
   width: 20rem;
@@ -361,11 +361,11 @@ main .glass {
 }
 
 .circle1 {
-  top: 5%;
-  right: 15%;
+  top: 2%;
+  right: 2%;
 }
 
 .circle2 {
-  bottom: 5%;
-  left: 10%;
+  bottom: 2%;
+  left: 2%;
 }/*# sourceMappingURL=main.css.map */
