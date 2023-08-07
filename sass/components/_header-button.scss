@@ -1,0 +1,36 @@
+.buttons {
+  display: flex;
+  gap: 10px;
+
+  .action-button {
+    background-color: #63c7b2;
+    color: #120d31;
+    border: 1px solid #63c7b2;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    @include tablette {
+      display: none;
+    }
+
+    &:hover {
+      color: #fff;
+      border: 1px solid #fff;
+    }
+  }
+
+  .pro {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+
+    &:hover {
+      background-color: #fff;
+      color: #120d31;
+    }
+  }
+}

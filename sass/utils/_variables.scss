@@ -2,9 +2,15 @@
 // Ce fichier contient toutes les variables Sass.
 // -----------------------------------------------------------------------------
 
-
 // Variables couleurs
 
-$white : #fff;
-$main-color : #65dfc9;
-$secondary-color : #6cdbeb;
+$white: #fff;
+$main-color: #65dfc9;
+$secondary-color: #6cdbeb;
+
+// Breakpoint
+
+$breakpoint: (
+  mobile: 576px,
+  tablette: 990px,
+);

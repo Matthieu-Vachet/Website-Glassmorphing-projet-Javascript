@@ -1,3 +1,14 @@
 // -----------------------------------------------------------------------------
 // Ce fichier contient tous les styles liés au composant de bouton.
 // -----------------------------------------------------------------------------
+
+.burger-menu-button {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+
+  @include tablette {
+    display: block;
+  }
+}

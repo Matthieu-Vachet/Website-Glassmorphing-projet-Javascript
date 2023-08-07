@@ -15,22 +15,32 @@ html {
  * faire en sorte que tous les éléments héritent de la valeur root box-sizing
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
-*,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
+body {
+  height: 100vh;
+  background: linear-gradient(to right top, $main-color, $secondary-color);
+}
 
-/**
- * Styles de base pour les liens
- */
-///a {
-///  color: $brand-color;
-///  text-decoration: none;
+li {
+  list-style: none;
+}
 
-///  @include on-event {
-///    color: $text-color;
-///    text-decoration: underline;
-///  }
-///}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #63c7b2;
+}

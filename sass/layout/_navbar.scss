@@ -1,0 +1,56 @@
+// .navbar {
+//     width: 100%;
+//     max-width: 2500px;
+//     height: 60px;
+//     margin: 10px 10px 10px 10px;
+//     @include flex-between-center;
+
+.logo img {
+  height: 50px;
+}
+
+//     .links {
+//         display: flex;
+//         gap: 2rem;
+//     }
+
+//     .buttons {
+//         display: flex;
+//         gap: 10px;
+//     }
+
+//     .burger-menu-button {
+//         color: #fff;
+//         font-size: 1.5rem;
+//         cursor: pointer;
+//         display: none;
+//     }
+// }
+
+// .action-button {
+//     background-color: #63c7b2;
+//     color: #120d31;
+//     border: 1px solid #63c7b2;
+//     padding: 0.5rem 1rem;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     outline: none;
+//     font-size: 0.9rem;
+//     font-weight: bold;
+
+//     &:hover {
+//         color: #fff;
+//         border: 1px solid #fff;
+//     }
+// }
+
+// .pro {
+//     background-color: transparent;
+//     color: #fff;
+//     border: 1px solid #fff;
+
+//     &:hover {
+//         background-color: #fff;
+//         color: #120d31;
+//     }
+// }

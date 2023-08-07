@@ -4,24 +4,28 @@
 @import
   './utils/variables',
   './utils/functions',
-  './utils/mixins';
+  './utils/mixins-flexbox',
+  './utils/mixins-breakpoint';
 
 
 // 3. Trucs de base
 @import
   './base/base',
   './base/fonts',
-  './base/typography',
-  './base/normalize';
+  './base/typography';
+  // './base/normalize';
 
 // 4. Sections liées à la mise en page
 @import
   './layout/header',
-  './layout/footer';
+  './layout/footer', 
+  './layout/navbar';
 
 // 5. Composants
 @import
-  './components/button';
+  './components/burger-menu-button', 
+  './components/header-button',
+  './components/burger-menu';
 
 // 6. Styles spécifiques à la page
 @import
