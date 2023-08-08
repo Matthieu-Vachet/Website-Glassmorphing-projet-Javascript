@@ -19,13 +19,15 @@
 @import
   './layout/header',
   './layout/footer', 
-  './layout/navbar';
+  './layout/navbar',
+  './layout/main';
 
 // 5. Composants
 @import
   './components/burger-menu-button', 
   './components/header-button',
-  './components/burger-menu';
+  './components/burger-menu',
+  './components/background-parallaxe';
 
 // 6. Styles spécifiques à la page
 @import

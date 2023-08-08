@@ -3,25 +3,38 @@
 // -----------------------------------------------------------------------------
 
 header {
-  position: relative;
-  margin: 15px 15px -10px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //margin: 15px 15px -10px 15px;
   padding: 0 2rem;
-  border-radius: 10px;
-  background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255,0.3));
-  z-index: 2;
+  //border-radius: 10px;
+  //background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255,0.3));
+  z-index: 9;
 
-  @include tablette {
-    background: none;
-  }
+  //@include tablette {
+  //  background: none;
+  //}
 
   .navbar {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     height: 60px;
-    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0 2rem;
+    margin: 15px 15px -10px 15px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @include tablette {
+      background: none;
+    }
 
     .logo a {
       font-size: 1.5rem;

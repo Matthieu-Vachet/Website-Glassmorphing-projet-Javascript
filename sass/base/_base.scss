@@ -19,6 +19,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: "Roboto Condensed", sans-serif;
 }
 *::before,
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(
     to right bottom,
     $main-color,
@@ -43,6 +44,7 @@ body {
     $main-color,
     $secondary-color
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
 }
 
 li {
@@ -57,4 +59,11 @@ a {
 
 a:hover {
   color: #63c7b2;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }

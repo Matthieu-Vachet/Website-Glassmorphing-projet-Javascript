@@ -1,0 +1,66 @@
+.background-parallaxe {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  img#bk0 {
+    mix-blend-mode: screen;
+    z-index: 2;
+  }
+
+  img#bk1 {
+    z-index: 1;
+  }
+
+  img#bk2 {
+    z-index: 6;
+  }
+
+  #title-parallaxe {
+    position: absolute;
+    right: -35%;
+    color: $white;
+    font-size: 5rem;
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  img#bk3 {
+    z-index: 5;
+  }
+
+  img#bk4 {
+    mix-blend-mode: screen;
+    z-index: 4;
+  }
+
+  img#bk5 {
+    mix-blend-mode: screen;
+    z-index: 3;
+  }
+}
+
+.background-parallaxe::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, $main-color, transparent);
+  z-index: 10;
+}

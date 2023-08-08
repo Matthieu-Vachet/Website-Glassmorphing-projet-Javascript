@@ -16,6 +16,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -25,9 +26,10 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to right bottom, #360033, #0b8793); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
 }
 
 li {
@@ -44,30 +46,43 @@ a:hover {
   color: #63c7b2;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /**
  * Style de typographie de base pour copier du texte
  */
 header {
-  position: relative;
-  margin: 15px 15px -10px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0 2rem;
-  border-radius: 10px;
-  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
-  z-index: 2;
-}
-@media screen and (max-width: 990px) {
-  header {
-    background: none;
-  }
+  z-index: 9;
 }
 header .navbar {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
   height: 60px;
-  margin: 0 auto;
+  border-radius: 10px;
+  padding: 0 2rem;
+  margin: 15px 15px -10px 15px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 990px) {
+  header .navbar {
+    background: none;
+  }
 }
 header .navbar .logo a {
   font-size: 1.5rem;
@@ -85,6 +100,22 @@ header .navbar .links {
 
 .logo img {
   height: 50px;
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+  background: #360033;
+}
+.sec h2 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+.sec p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .burger-menu-button {
@@ -187,6 +218,66 @@ header .navbar .links {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.background-parallaxe {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-parallaxe img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background-parallaxe img#bk0 {
+  mix-blend-mode: screen;
+  z-index: 2;
+}
+.background-parallaxe img#bk1 {
+  z-index: 1;
+}
+.background-parallaxe img#bk2 {
+  z-index: 6;
+}
+.background-parallaxe #title-parallaxe {
+  position: absolute;
+  right: -35%;
+  color: #fff;
+  font-size: 5rem;
+  white-space: nowrap;
+  z-index: 1;
+}
+.background-parallaxe img#bk3 {
+  z-index: 5;
+}
+.background-parallaxe img#bk4 {
+  mix-blend-mode: screen;
+  z-index: 4;
+}
+.background-parallaxe img#bk5 {
+  mix-blend-mode: screen;
+  z-index: 3;
+}
+
+.background-parallaxe::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #360033, transparent);
+  z-index: 10;
 }
 
 main {
