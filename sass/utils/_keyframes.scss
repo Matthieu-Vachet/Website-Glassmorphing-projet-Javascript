@@ -1,0 +1,21 @@
+// @mixin animate {
+//     @keyframes animate {
+//         0%, 100% {
+//             transform: translateY(20px);
+//         }
+//         50% {
+//             transform: translateY(80px);
+//         }
+//     }
+// }
+
+@mixin move-cloud {
+    @keyframes move-cloud{
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 4000px;
+    }
+}
+}

@@ -8,10 +8,7 @@ header {
   left: 0;
   width: 100%;
   @include flex-align-items-center;
-  //margin: 15px 15px -10px 15px;
   padding: 0 2rem;
-  //border-radius: 10px;
-  //background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255,0.3));
   z-index: 9;
 
   //@include tablette {
@@ -25,8 +22,9 @@ header {
     border-radius: 10px;
     padding: 0 2rem;
     margin: 15px 15px -10px 15px;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.764), rgba(255, 255, 255, 0.627));
     @include flex-between-center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.767);
 
     @include tablette {
       background: none;
