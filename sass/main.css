@@ -209,15 +209,15 @@ header .navbar .links {
 .burger-menu .buttons-burger-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .burger-menu .buttons-burger-menu .action-button {
   width: 80%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .background-parallaxe {

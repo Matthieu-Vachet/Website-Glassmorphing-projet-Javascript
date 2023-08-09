@@ -26,9 +26,7 @@
 
   & li {
     padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-align-items-center;
   }
 
   .divider {
@@ -41,17 +39,12 @@
   }
 
   .buttons-burger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column-center;
     gap: 10px;
 
     .action-button {
       width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex-align-items-center;
     }
   }
 }
