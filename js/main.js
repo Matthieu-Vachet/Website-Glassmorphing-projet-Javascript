@@ -22,9 +22,9 @@ window.addEventListener("scroll", function () {
   let value = window.scrollY;
   bk0.style.marginLeft = value * 0.1 + "px";
   bk2.style.top = value * 0.30 + "px";
-  bk3.style.top = value * 0.30 + "px";
+  // bk3.style.top = value * 0.30 + "px";
   // bk4.style.top = value * 0.50 + "px";
-  bk5.style.top = value * 0.40 + "px";
+  bk5.style.top = value * 0.60 + "px";
   // header.style.top = value * 0.30 + "px";
 
 

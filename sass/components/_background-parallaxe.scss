@@ -30,30 +30,29 @@
 
   #title-parallaxe {
     position: absolute;
-    top: 200px;
-    right: 100px;
-    @include fontSpaceGrotesk700(4em, $white);
+    top: 300px;
+    right: 170px;
+    @include fontSpaceGrotesk700(4.5em, $white);
     gap: 10px;
     white-space: nowrap;
     cursor: pointer;
     z-index: 10;
-    
-    //   animation: animate 9s linear infinite;
-    //  @include animate
+
+    animation: animate 15s linear infinite;
+    @include animate;
 
     & span {
       position: relative;
-      filter: blur(5px);
-      padding: 10px;
+      filter: blur(8px);
+      padding: 5px;
       transition: all 0.5s;
 
       &:hover {
-       transform: scale(2);
-       filter: blur(0px);
-       transition: 0s;
+        filter: blur(0px);
+        transition: 0s;
+        color: $white
       }
     }
-   
   }
 
   .cloud {
