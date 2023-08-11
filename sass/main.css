@@ -2,6 +2,7 @@
 /**
  * Configurer un modèle de boîte décent sur l'élément racine
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
 html {
   box-sizing: border-box;
 }
