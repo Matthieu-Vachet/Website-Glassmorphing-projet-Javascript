@@ -15,7 +15,7 @@ let bk2 = document.getElementById("bk2");
 let bk3 = document.getElementById("bk3");
 // let bk4 = document.getElementById("bk4");
 let bk5 = document.getElementById("bk5");
-let header = document.querySelector("header");
+// let header = document.querySelector("header");
 
 window.addEventListener("scroll", function () {
 
@@ -25,7 +25,7 @@ window.addEventListener("scroll", function () {
   bk3.style.top = value * 0.30 + "px";
   // bk4.style.top = value * 0.50 + "px";
   bk5.style.top = value * 0.40 + "px";
-  header.style.top = value * 0.30 + "px";
+  // header.style.top = value * 0.30 + "px";
 
 
 })
