@@ -31,7 +31,7 @@ header {
     }
 
     .logo a {
-      @include fontRoboto700(1.5rem, black);
+      @include fontSpaceGrotesk700(2rem, black);
     }
 
     .links {

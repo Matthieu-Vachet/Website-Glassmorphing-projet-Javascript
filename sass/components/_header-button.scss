@@ -8,7 +8,7 @@
     padding: 0.5rem 1.2rem;
     border-radius: 5px;
     outline: none;
-    @include fontRoboto700(0.9rem, black);
+    @include fontSpaceGrotesk700(0.9rem, black);
     cursor: pointer;
 
     @include tablette {

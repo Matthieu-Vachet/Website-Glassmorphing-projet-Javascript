@@ -3,6 +3,8 @@
  * Configurer un modèle de boîte décent sur l'élément racine
  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=melodrama@300,400,600,700,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -42,7 +44,7 @@ a {
   color: #fff;
   font-weight: 400;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Space Grotesk";
 }
 
 a:hover {
@@ -90,11 +92,11 @@ header .navbar {
   }
 }
 header .navbar .logo a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: black;
   font-weight: 700;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Space Grotesk";
 }
 header .navbar .links {
   display: flex;
@@ -116,7 +118,7 @@ header .navbar .links {
   color: white;
   font-weight: 500;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Space Grotesk";
   margin-bottom: 10px;
 }
 .sec p {
@@ -124,7 +126,7 @@ header .navbar .links {
   color: white;
   font-weight: 300;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Space Grotesk";
   margin-bottom: 10px;
 }
 
@@ -154,7 +156,7 @@ header .navbar .links {
   color: black;
   font-weight: 700;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Space Grotesk";
   cursor: pointer;
 }
 @media screen and (max-width: 990px) {
@@ -269,7 +271,7 @@ header .navbar .links {
   color: white;
   font-weight: 700;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Space Grotesk";
   white-space: nowrap;
   z-index: 2;
 }

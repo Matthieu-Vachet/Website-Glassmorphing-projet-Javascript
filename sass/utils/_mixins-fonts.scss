@@ -59,3 +59,143 @@
   font-style: $style;
   font-family: $family;
 }
+
+@mixin fontMelodrama300(
+  $size,
+  $color,
+  $weight: 300,
+  $style: normal,
+  $family: "Melodrama"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontMelodrama400(
+  $size,
+  $color,
+  $weight: 400,
+  $style: normal,
+  $family: "Melodrama"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontMelodrama500(
+  $size,
+  $color,
+  $weight: 500,
+  $style: normal,
+  $family: "Melodrama"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontMelodrama600(
+  $size,
+  $color,
+  $weight: 600,
+  $style: normal,
+  $family: "Melodrama"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontMelodrama700(
+  $size,
+  $color,
+  $weight: 700,
+  $style: normal,
+  $family: "Melodrama"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontSpaceGrotesk300 (
+  $size,
+  $color,
+  $weight: 300,
+  $style: normal,
+  $family: "Space Grotesk"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontSpaceGrotesk400 (
+  $size,
+  $color,
+  $weight: 400,
+  $style: normal,
+  $family: "Space Grotesk"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontSpaceGrotesk500 (
+  $size,
+  $color,
+  $weight: 500,
+  $style: normal,
+  $family: "Space Grotesk"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontSpaceGrotesk600 (
+  $size,
+  $color,
+  $weight: 600,
+  $style: normal,
+  $family: "Space Grotesk"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+@mixin fontSpaceGrotesk700 (
+  $size,
+  $color,
+  $weight: 700,
+  $style: normal,
+  $family: "Space Grotesk"
+) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}

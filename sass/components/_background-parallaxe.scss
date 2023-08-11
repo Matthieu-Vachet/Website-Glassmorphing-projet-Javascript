@@ -32,7 +32,7 @@
     position: absolute;
     top: 200px;
     right: 100px;
-    @include fontRoboto700(4em, white);
+    @include fontSpaceGrotesk700(4em, white);
     white-space: nowrap;
     z-index: 2;
   //   animation: animate 9s linear infinite;
