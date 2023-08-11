@@ -1,7 +1,7 @@
 .sec {
     position: relative;
     padding: 100px;
-    background: $main-color;
+    @include Background-principal-color;
 
     h2 {
         @include fontSpaceGrotesk500(3.5em, $white);

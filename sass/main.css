@@ -29,8 +29,8 @@ html {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(to right bottom, #123983, #0b8793); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #123983, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #2b86c5;
+  background-image: linear-gradient(180deg, #2b86c5 0%, #74ebd5 50%, #9face6 100%);
   overflow-x: hidden;
 }
 
@@ -116,7 +116,8 @@ header .navbar .links {
 .sec {
   position: relative;
   padding: 100px;
-  background: #123983;
+  background-color: #2b86c5;
+  background-image: linear-gradient(180deg, #2b86c5 0%, #74ebd5 50%, #9face6 100%);
 }
 .sec h2 {
   font-size: 3.5em;
@@ -152,8 +153,8 @@ header .navbar .links {
   gap: 10px;
 }
 .buttons .action-button {
-  background-color: #63c7b2;
-  border: 1px solid #63c7b2;
+  background-color: #74ebd5;
+  border: 1px solid #74ebd5;
   padding: 0.5rem 1.2rem;
   border-radius: 5px;
   outline: none;
@@ -180,7 +181,7 @@ header .navbar .links {
 }
 .buttons .pro:hover {
   background-color: #fff;
-  color: #120d31;
+  color: #000;
 }
 
 .burger-menu {
@@ -277,8 +278,21 @@ header .navbar .links {
   font-weight: 700;
   font-style: normal;
   font-family: "Space Grotesk";
+  gap: 10px;
   white-space: nowrap;
-  z-index: 2;
+  cursor: pointer;
+  z-index: 10;
+}
+.background-parallaxe #title-parallaxe span {
+  position: relative;
+  filter: blur(5px);
+  padding: 10px;
+  transition: all 0.5s;
+}
+.background-parallaxe #title-parallaxe span:hover {
+  transform: scale(2);
+  filter: blur(0px);
+  transition: 0s;
 }
 .background-parallaxe .cloud {
   position: absolute;
@@ -322,7 +336,7 @@ header .navbar .links {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
-  background: linear-gradient(to top, #123983, transparent);
+  height: 50px;
+  background: linear-gradient(to top, #2b86c5, transparent);
   z-index: 10;
 }/*# sourceMappingURL=main.css.map */
