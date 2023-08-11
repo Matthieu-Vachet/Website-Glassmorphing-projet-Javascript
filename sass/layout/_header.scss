@@ -31,8 +31,7 @@ header {
     }
 
     .logo a {
-      font-size: 1.5rem;
-      font-weight: bold;
+      @include fontRoboto700(1.5rem, black);
     }
 
     .links {

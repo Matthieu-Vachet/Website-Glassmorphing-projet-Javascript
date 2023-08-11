@@ -20,7 +20,6 @@ html {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Roboto Condensed", sans-serif;
 }
 *::before,
 *::after {
@@ -53,8 +52,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
+  @include fontRoboto400(1rem, #fff);
 }
 
 a:hover {
@@ -62,8 +60,6 @@ a:hover {
 }
 
 main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  min-height: 100vh;
+  @include flex-column-center;
 }

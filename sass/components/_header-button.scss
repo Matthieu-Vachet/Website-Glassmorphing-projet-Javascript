@@ -4,13 +4,11 @@
 
   .action-button {
     background-color: #63c7b2;
-    color: #120d31;
     border: 1px solid #63c7b2;
     padding: 0.5rem 1.2rem;
     border-radius: 5px;
     outline: none;
-    font-size: 0.9rem;
-    font-weight: bold;
+    @include fontRoboto700(0.9rem, black);
     cursor: pointer;
 
     @include tablette {

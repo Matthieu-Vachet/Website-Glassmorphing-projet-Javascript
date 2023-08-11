@@ -4,14 +4,13 @@
     background: $main-color;
 
     h2 {
-        font-size: 3.5em;
+        @include fontRoboto500(3.5em, white);
         margin-bottom: 10px;
-        color: white;
+
     }
 
     p {
-        font-size: 1em;
+        @include fontRoboto300(1em, white);
         margin-bottom: 10px;
-        color: white;
     }
 }
