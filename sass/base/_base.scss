@@ -52,7 +52,7 @@ li {
 
 a {
   text-decoration: none;
-  @include fontSpaceGrotesk400(1rem, #fff);
+  @include fontSpaceGrotesk400(1rem, $white);
 }
 
 a:hover {

@@ -4,13 +4,13 @@
     background: $main-color;
 
     h2 {
-        @include fontSpaceGrotesk500(3.5em, white);
+        @include fontSpaceGrotesk500(3.5em, $white);
         margin-bottom: 10px;
 
     }
 
     p {
-        @include fontSpaceGrotesk300(1em, white);
+        @include fontSpaceGrotesk300(1em, $white);
         margin-bottom: 10px;
     }
 }

@@ -32,7 +32,7 @@
     position: absolute;
     top: 200px;
     right: 100px;
-    @include fontSpaceGrotesk700(4em, white);
+    @include fontSpaceGrotesk700(4em, $white);
     white-space: nowrap;
     z-index: 2;
   //   animation: animate 9s linear infinite;
@@ -48,10 +48,11 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background: transparent
+    background: $transparent
     url('/assets/images/cloud.png') repeat top center;
-    filter: opacity(0.4) drop-shadow(0 0 0 white);
+    filter: opacity(0.4) drop-shadow(0 0 0 $white);
     z-index: 1;
+
     animation: move-cloud 200s linear infinite;
     @include move-cloud;
     
@@ -79,6 +80,6 @@
   left: 0;
   width: 100%;
   height: 80px;
-  background: linear-gradient(to top, $main-color, transparent);
+  background: linear-gradient(to top, $main-color, $transparent);
   z-index: 10;
 }

@@ -8,7 +8,7 @@
     padding: 0.5rem 1.2rem;
     border-radius: 5px;
     outline: none;
-    @include fontSpaceGrotesk700(0.9rem, black);
+    @include fontSpaceGrotesk700(0.9rem, $black);
     cursor: pointer;
 
     @include tablette {
@@ -16,18 +16,18 @@
     }
 
     &:hover {
-      color: #fff;
-      border: 1px solid #fff;
+      color: $white;
+      border: 1px solid $white;
     }
   }
 
   .pro {
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    background-color: $transparent;
+    color: $white;
+    border: 1px solid $white;
 
     &:hover {
-      background-color: #fff;
+      background-color: $white;
       color: #120d31;
     }
   }
