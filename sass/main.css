@@ -282,8 +282,8 @@ header .navbar .links {
   right: 0;
   width: 100%;
   height: 100%;
-  background: transparent url("https://i.ibb.co/BsG8rYZ/cloud.png") repeat top center;
-  color: white;
+  background: transparent url("/assets/images/cloud.png") repeat top center;
+  filter: opacity(0.4) drop-shadow(0 0 0 white);
   z-index: 1;
   animation: move-cloud 200s linear infinite;
 }
