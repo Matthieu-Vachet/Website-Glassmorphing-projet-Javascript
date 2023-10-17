@@ -1,3 +1,5 @@
+// Burger Menu
+
 const burgerMenuButton = document.querySelector(".burger-menu-button");
 const burgerMenuButtonIcon = document.querySelector(".burger-menu-button i");
 const burgerMenu = document.querySelector(".burger-menu");
@@ -9,6 +11,8 @@ burgerMenuButton.onclick = function () {
     ? "fa-solid fa-xmark"
     : "fa-solid fa-bars";
 }
+
+
 let bk0 = document.getElementById("bk0");
 let bk1 = document.getElementById("bk1");
 let bk2 = document.getElementById("bk2");

@@ -5,18 +5,20 @@
   right: 2rem;
   top: 60px;
   width: 200px;
-  @include gradient-glassmorphing;
+  @include glassmorphing-fond;
   border-radius: 10px;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-  @include mobile {
-    left: 2rem;
-    width: unset;
+  @include mobile-m {
+    width: 90%;
+    margin-top: 20px;
+    border: none;
   }
 
   @include tablette {
     display: block;
+    border: none;
   }
 
   &.open {

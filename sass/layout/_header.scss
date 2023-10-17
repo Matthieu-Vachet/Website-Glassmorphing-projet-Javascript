@@ -8,21 +8,20 @@ header {
   left: 0;
   width: 100%;
   @include flex-align-items-center;
-  padding: 0 2rem;
+  padding: 0 1rem;
   z-index: 9;
 
-  //@include tablette {
-  //  background: none;
-  //}
+  @include tablette {
+   background: none;
+  }
 
   .navbar {
     width: 100%;
-    max-width: 1440px;
     height: 60px;
     border-radius: 10px;
+    margin: 1rem 0 0 0;
     padding: 0 2rem;
-    margin: 15px 15px -10px 15px;
-    @include gradient-glassmorphing;
+    @include glassmorphing-navbar;
     @include flex-between-center;
     box-shadow: $box-shadow;
 
@@ -30,6 +29,8 @@ header {
       background: none;
       backdrop-filter: none;
       box-shadow: none;
+      border: none;
+      border-radius: none;
     }
 
     .logo a {

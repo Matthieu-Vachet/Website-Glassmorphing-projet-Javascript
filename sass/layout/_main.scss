@@ -1,16 +1,14 @@
-.sec {
+#main-section {
     position: relative;
-    padding: 100px;
+    padding: 20px;
     @include Background-principal-color;
+    @include flex-align-items-center;
 
-    h2 {
-        @include fontSpaceGrotesk500(3.5em, $white);
-        margin-bottom: 10px;
-
-    }
-
-    p {
-        @include fontSpaceGrotesk300(1em, $white);
-        margin-bottom: 10px;
+    .glass {
+        position: relative;
+        width: 95%;
+        height: auto;
+        border-radius: 20px;
+        @include glassmorphing-fond;
     }
 }
